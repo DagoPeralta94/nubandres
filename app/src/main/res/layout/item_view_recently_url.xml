@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/ds_spacing_2"
+    app:cardCornerRadius="@dimen/ds_spacing_4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/ds_spacing_4">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_alias_label"
+            style="@style/DsBaseText.Body1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/recently_url_alias"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_alias_definition"
+            style="@style/DsBaseText.Body1.PrimaryA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ds_spacing_2"
+            app:layout_constraintStart_toEndOf="@id/textView_alias_label"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="204321" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_url_complete_label"
+            style="@style/DsBaseText.Body1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/ds_spacing_2"
+            android:text="@string/recently_url_complete"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView_alias_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_url_complete_definition"
+            style="@style/DsBaseText.Body1.PrimaryA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ds_spacing_2"
+            app:layout_constraintStart_toEndOf="@id/textView_url_complete_label"
+            app:layout_constraintTop_toTopOf="@id/textView_url_complete_label"
+            tools:text="https://www.nu.com.co" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_url_shorten_label"
+            style="@style/DsBaseText.Body1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/ds_spacing_2"
+            android:text="@string/recently_url_shorten"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView_url_complete_label" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_url_shorten_definition"
+            style="@style/DsBaseText.Body1.PrimaryA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ds_spacing_2"
+            app:layout_constraintStart_toEndOf="@id/textView_url_shorten_label"
+            app:layout_constraintTop_toTopOf="@id/textView_url_shorten_label"
+            tools:text="https://url-shortener-nu.herokuapp.com/short/30980" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

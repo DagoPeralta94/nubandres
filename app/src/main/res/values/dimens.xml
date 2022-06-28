@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text Sizes -->
+    <dimen name="ds_body_size">16sp</dimen>
+    <dimen name="ds_body3_size">12sp</dimen>
+    <dimen name="ds_title_1">40sp</dimen>
+    <dimen name="ds_title_2">20sp</dimen>
+    <!-- Elevations -->
+    <dimen name="ds_no_elevation">0dp</dimen>
+    <dimen name="ds_elevation_1">2dp</dimen>
+    <dimen name="ds_elevation_2">4dp</dimen>
+    <dimen name="ds_elevation_3">6dp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="ds_spacing_minus">-5dp</dimen>
+    <dimen name="ds_spacing_minus_big">-15dp</dimen>
+    <dimen name="ds_spacing_empty">0dp</dimen>
+    <dimen name="ds_spacing_xxmicro">0.5dp</dimen>
+    <dimen name="ds_spacing_xmicro">1dp</dimen>
+    <dimen name="ds_spacing_micro_1">1.5dp</dimen>
+    <dimen name="ds_spacing_micro">2dp</dimen>
+    <dimen name="ds_spacing_micro_small">3dp</dimen>
+    <dimen name="ds_spacing_1">4dp</dimen>
+    <dimen name="ds_spacing_1_1">5dp</dimen>
+    <dimen name="ds_spacing_xmedium">7dp</dimen>
+    <dimen name="ds_spacing_2">8dp</dimen>
+    <dimen name="ds_spacing_2_5">10dp</dimen>
+    <dimen name="ds_spacing_3">12dp</dimen>
+    <dimen name="ds_spacing_3_5">14dp</dimen>
+    <dimen name="ds_spacing_4">16dp</dimen>
+    <dimen name="ds_spacing_5">20dp</dimen>
+    <dimen name="ds_spacing_5_15">21dp</dimen>
+    <dimen name="ds_spacing_6">24dp</dimen>
+    <dimen name="ds_spacing_7">28dp</dimen>
+    <dimen name="ds_spacing_8_5">30dp</dimen>
+    <dimen name="ds_spacing_8">32dp</dimen>
+    <dimen name="ds_spacing_9">36dp</dimen>
+    <dimen name="ds_spacing_10">40dp</dimen>
+    <dimen name="ds_spacing_11">44dp</dimen>
+    <dimen name="ds_spacing_12">48dp</dimen>
+</resources>

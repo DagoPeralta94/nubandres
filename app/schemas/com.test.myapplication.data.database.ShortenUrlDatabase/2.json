@@ -1,0 +1,52 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "24ff64c755395037fc5f611c3df98ae3",
+    "entities": [
+      {
+        "tableName": "shorten_url_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`url_complete` TEXT NOT NULL, `alias` TEXT NOT NULL, `url_shorten` TEXT NOT NULL, `time` INTEGER NOT NULL, PRIMARY KEY(`url_complete`))",
+        "fields": [
+          {
+            "fieldPath": "urlComplete",
+            "columnName": "url_complete",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "alias",
+            "columnName": "alias",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "urlShorten",
+            "columnName": "url_shorten",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "time",
+            "columnName": "time",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "url_complete"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '24ff64c755395037fc5f611c3df98ae3')"
+    ]
+  }
+}

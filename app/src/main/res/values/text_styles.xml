@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DsBaseText" parent="TextAppearance.AppCompat">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="DsBaseText.Body1">
+        <item name="android:textSize">@dimen/ds_body_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="DsBaseText.Title1">
+        <item name="android:textSize">@dimen/ds_title_1</item>
+        <item name="android:letterSpacing">-0.053</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DsBaseText.Title1.Primary">
+        <item name="android:textColor">@color/purple_500</item>
+    </style>
+
+    <style name="DsBaseText.Body1.PrimaryA">
+        <item name="android:textColor">@color/purple_500</item>
+    </style>
+</resources>

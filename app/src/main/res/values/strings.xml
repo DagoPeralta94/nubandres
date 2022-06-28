@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nubank</string>
+    <string name="url_label">URL</string>
+    <string name="url_search">Search</string>
+    <string name="recent_url_subtitle">Recently shortened URL\'s</string>
+    <string name="error_on_dot">URL must contain \'.\'</string>
+    <string name="error_on_www">URL must contain \'www\'</string>
+    <string name="recently_url_alias">Alias:</string>
+    <string name="recently_url_complete">URL complete:</string>
+    <string name="recently_url_shorten">URL shorten:</string>
+</resources>
